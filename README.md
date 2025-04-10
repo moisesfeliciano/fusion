@@ -67,3 +67,26 @@ utilizando o banco de dados PostgresSQL.
 	]
 	
 ### No pgadmin cria um banco de dados no POSTGRESQL, com o nome do projeto.
+
+### Abre arquivo "views.py" da aplicação "core":
+
+### importa do pacote django views generic o TemplateView e Cria uma classe "IndexView" que herda de "TemplateWiew" informando o nome do template:
+
+		from django.views.generic import TemplateView
+		
+		class IndexView(TemplateView):
+    			template_name = 'index.html'
+			
+	
+### Na "urls.py" da aplicação "core" e configura as rotas:
+
+	Importa o "path" e o "IndexView" do arquivo "views.py" da aplicação "core"
+	
+		from django.url import path
+		from .views import IndexView
+
+	Define uma rota para raiz do projeto:
+	
+	urlspatterns = [
+		path('', IndexView.as_view(), name='index'),
+	]
