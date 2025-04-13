@@ -90,3 +90,24 @@ utilizando o banco de dados PostgresSQL.
 	urlspatterns = [
 		path('', IndexView.as_view(), name='index'),
 	]
+
+Commit: Adicionando configurações parte2 (configurando views.py e urls.py) no arquivo README
+
+========================================================================
+
+### No diretório "Templates da aplicação "Core"
+ 	Criar um arquivo "html" com o nome "index.html" deixando nesse formato:
+ 	
+		<html lang="en">
+		<head>
+		    <meta charset="UTF-8">
+		    <title>Title</title>
+		</head>
+		<body>
+		    <h1>Index</h1>
+		</body>
+		</html>
+
+Commit: Adicionando configurações parte 3 (Criando arquivo index.html e modificando arquivo README)
+
+=================================================================================
