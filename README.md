@@ -111,3 +111,14 @@ Commit: Adicionando configurações parte2 (configurando views.py e urls.py) no 
 Commit: Adicionando configurações parte 3 (Criando arquivo index.html e modificando arquivo README)
 
 =================================================================================
+
+## ADICIONANDO E CONFIGURANDO ARQUIVOS ESTÁTICOS:
+
+### Adicionando no diretório "templates" da aplicação "core" os diretórios de 
+### configuração da paǵina "index.htm":
+
+	/css
+	/fonts
+	/img
+	/js
+	/jcss
