@@ -866,3 +866,25 @@ configuração da página index.html
 
 
 Commit: Adicionando conteúdo da página "index.html"
+
+================================================================
+
+## Carregando os arquivos estáticos na página html:
+
+Informando o "{% load static % }" no início da página "index.html" para que o seja
+renderizada os arquivos estáticos na página, informando a lingua a ser utilizada "pt-br" e
+colocando o título da página "fusion".
+
+    {% load static % }
+	<!DOCTYPE html>
+	<html lang="pt-br">
+	  <head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <title>Fusion</title>
+	    
+Commit: Informando o " {% load static % } no início da página "index.html" para que o seja renderizada os arquivos estáticos na página, informando a ligua aser utilizada "pt-br" e colocando o título da página "fusion"
+
+==============================================================================
