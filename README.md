@@ -888,3 +888,26 @@ colocando o título da página "fusion".
 Commit: Informando o " {% load static % } no início da página "index.html" para que o seja renderizada os arquivos estáticos na página, informando a ligua aser utilizada "pt-br" e colocando o título da página "fusion"
 
 ==============================================================================
+
+### Carregando arquivos estáticos do "CSS" na página "index.html"
+
+	   <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="{ % static 'css/bootstrap.min.css' %}" >
+	    <!-- Icon -->
+	    <link rel="stylesheet" href="{% static 'fonts/line-icons.css' %}">
+	    <!-- Owl carousel -->
+	    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+	    <link rel="stylesheet" href="{% static 'css/owl.theme.css' %}">
+	    
+	    <!-- Animate -->
+	    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+	    <!-- Main Style -->
+	    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+	    <!-- Responsive Style -->
+	    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+
+	  </head>
+
+Commit: Carregando arquivos estáticos do CSS na página index.html
+	
+================================================================
