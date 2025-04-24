@@ -911,3 +911,12 @@ Commit: Informando o " {% load static % } no início da página "index.html" par
 Commit: Carregando arquivos estáticos do CSS na página index.html
 	
 ================================================================
+
+### Atualizações do carregamento dos arquivos estáticos do CSS na página index.html e fazendo correções
+### na página index.html da pasta template do projeto fusion e modificando o README
+
+
+
+Commit: Atualizações do carregamento dos arquivos estáticos do CSS na página index.html e correções
+
+========================================================================================
