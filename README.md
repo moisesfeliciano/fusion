@@ -920,3 +920,12 @@ Commit: Carregando arquivos estáticos do CSS na página index.html
 Commit: Atualizações do carregamento dos arquivos estáticos do CSS na página index.html e correções
 
 ========================================================================================
+
+### Enviando pasta com arquivos CSS do diretório /core/templates p/ o diretório /core/static
+
+    /core/templates/css -> /core/static
+    /core/templates -> /core/static/css
+
+Commit: Enviando pasta com arquivos CSS do diretório /core/templates p/ o diretório /core/static
+
+=========================================================================================
