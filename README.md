@@ -929,3 +929,11 @@ Commit: Atualizações do carregamento dos arquivos estáticos do CSS na página
 Commit: Enviando pasta com arquivos CSS do diretório /core/templates p/ o diretório /core/static
 
 =========================================================================================
+
+### Enviando pasta com imagens do diretório core/templates p/ o diretório core/static
+
+    core/template/img -> core/static/img
+	
+Commit: Enviando pasta com imagens do diretório core/templates p/ o diretório core/static
+
+==========================================================================================
