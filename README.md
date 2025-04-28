@@ -937,3 +937,11 @@ Commit: Enviando pasta com arquivos CSS do diretório /core/templates p/ o diret
 Commit: Enviando pasta com imagens do diretório core/templates p/ o diretório core/static
 
 ==========================================================================================
+
+### Enviando pasta com as fontes do diretório core/templates p/ o diretório core/static
+
+    core/template/fonts -> core/static/fonts
+	
+Commit: Enviando pasta com as fontes do diretório core/templates p/ o diretório core/static
+
+==========================================================================================
