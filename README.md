@@ -945,3 +945,11 @@ Commit: Enviando pasta com imagens do diretório core/templates p/ o diretório 
 Commit: Enviando pasta com as fontes do diretório core/templates p/ o diretório core/static
 
 ==========================================================================================
+
+### Enviando pasta js do diretório core/templates p/ o diretório core/static
+
+    core/template/js -> core/static/js
+	
+Commit: Enviando pasta js do diretório core/templatesjs p/ o diretório core/static/js
+
+==========================================================================================
