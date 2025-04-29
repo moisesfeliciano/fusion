@@ -953,3 +953,11 @@ Commit: Enviando pasta com as fontes do diretório core/templates p/ o diretóri
 Commit: Enviando pasta js do diretório core/templatesjs p/ o diretório core/static/js
 
 ==========================================================================================
+
+### Enviando pasta scss do diretório core/templates p/ o diretório core/static
+
+    core/template/scss -> core/static/scss
+	
+Commit: Enviando pasta scss do diretório core/templates/scss p/ o diretório core/static/scss
+
+==========================================================================================
