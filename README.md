@@ -961,3 +961,19 @@ Commit: Enviando pasta js do diretório core/templatesjs p/ o diretório core/st
 Commit: Enviando pasta scss do diretório core/templates/scss p/ o diretório core/static/scss
 
 ==========================================================================================
+
+### Carregar imagens estáticas na página index.html
+
+         Linha 35:  <a href="index.html" class="navbar-brand"><img src="{% static 'img/logo.png' %}" alt=""></a> 
+         Linha 93: <img class="img-fluid" src="{% 'img/intro-mobile.png' %}" alt="">
+         Linha 309: <img class="img-fluid" src="{% 'img/team/team-01.png' %}" alt="">
+         Linha 330: <img class="img-fluid" src="{% 'img/team/team-02.png' %}" alt="">
+         Linha 351: <img class="img-fluid" src="{% 'img/team/team-03.png' %}" alt="">
+         Linha 372: <img class="img-fluid" src="{% 'img/team/team-04.png' %}" alt="">
+         Linha 476: <img src="{% 'img/testimonial/img1.jpg' %}" alt="">
+         Lnha 497: <img src="{% 'img/testimonial/img2.jpg' %}" alt="">
+         Linha 518: <img src="{% 'img/testimonial/img3.jpg' %}" alt="">
+         Linha 539: <img src="{% 'img/testimonial/img4.jpg' %}" alt="">
+         
+Commit: Carregar imagens estáticas na página index.html
+=======================================================================================
