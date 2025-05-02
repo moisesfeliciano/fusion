@@ -993,3 +993,23 @@ Commit: Carregar imagens estáticas na página index.html
          Linha 645: <h3 class="footer-logo"><img src="{% 'img/logo.png' %}" alt=""></h3>
          
 Commit: Modificando arquivo README
+
+==================================================================================
+### Carregando arquivos estáticos do js na página index.html
+ 
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="{% static 'js/jquery-min.js' %}"></script>
+	    <script src="{% static 'js/popper.min.js' %}"></script>
+	    <script src="a{% static 'js/bootstrap.min.js' %}"></script>
+	    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+	    <script src="{% static 'js/wow.js' %}"></script>
+	    <script src="{% static 'js/jquery.nav.js' %}"></script>
+	    <script src="a{% static 'js/scrolling-nav.js' %}"></script>
+	    <script src="a{% static 'js/jquery.easing.min.js' %}"></script>  
+	    <script src="{% static 'js/main.js' %}"></script>
+	    <script src="a{% static 'js/form-validator.min.js' %}"></script>
+	    <script src="{% static 'js/contact-form-script.min.js' %}"></script>
+	      
+   Commit: Carregando arquivos estáticos do js na página index.html
+   
+   =========================================================================
