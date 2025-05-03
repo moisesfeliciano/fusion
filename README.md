@@ -1013,3 +1013,23 @@ Commit: Modificando arquivo README
    Commit: Carregando arquivos estáticos do js na página index.html
    
    =========================================================================
+
+### Correção do carregamento das imagens estáticas na página index.html
+
+	 Linha 35:  <a href="index.html" class="navbar-brand"><img src="{%  static 'img/logo.png' %}" alt=""></a> 
+     Linha 93: <img class="img-fluid" src="{% static 'img/intro-mobile.png' %}" alt="">
+     Linha 210: <img class="img-fluid" src="{% static 'img/about/img-1.png' %}" alt="" >
+     Linha 258: <img src="{% static 'img/feature/intro-mobile.png' %}" alt="">
+     Linha 309: <img class="img-fluid" src="{% static 'img/team/team-01.png' %}" alt="">
+     Linha 330: <img class="img-fluid" src="{% static 'img/team/team-02.png' %}" alt="">
+     Linha 351: <img class="img-fluid" src="{% static 'img/team/team-03.png' %}" alt="">
+     Linha 372: <img class="img-fluid" src="{% static 'img/team/team-04.png' %}" alt="">
+     Linha 476: <img src="{% static 'img/testimonial/img1.jpg' %}" alt="">
+     Lnha 497: <img src="{% static 'img/testimonial/img2.jpg' %}" alt="">
+     Linha 518: <img src="{% static 'img/testimonial/img3.jpg' %}" alt="">
+     Linha 539: <img src="{% static 'img/testimonial/img4.jpg' %}" alt="">
+     Linha 645: <h3 class="footer-logo"><img src="{% static 'img/logo.png' %}" alt=""></h3>
+     
+     Commit: Correção do carregamento das imagens estáticas na página index.html
+     
+     =====================================================================================
