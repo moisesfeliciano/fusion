@@ -1033,3 +1033,9 @@ Commit: Modificando arquivo README
      Commit: Correção do carregamento das imagens estáticas na página index.html
      
      =====================================================================================
+
+### Até aqui o site carrega diretamente pela pagina index.html
+
+## Próxima etapa será "Herança de Templates", onde o site será dividido em partes menores.
+       
+    ==================================================================================
